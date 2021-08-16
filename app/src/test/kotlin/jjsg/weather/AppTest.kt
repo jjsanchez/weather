@@ -3,14 +3,14 @@
  */
 package jjsg.weather
 
-import org.junit.jupiter.api.Assertions.assertNotNull
+import io.kotest.matchers.shouldNotBe
 import org.junit.jupiter.api.Test
-
 
 class AppTest {
     @Test
     fun `app has a greeting`() {
         val classUnderTest = App()
-        assertNotNull(classUnderTest.greeting, "app should have a greeting")
+
+        classUnderTest.greeting shouldNotBe null
     }
 }
