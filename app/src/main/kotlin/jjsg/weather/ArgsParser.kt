@@ -6,9 +6,7 @@ class ArgsParser {
 
         val city = cityArgument?.get(1)
 
-        return if (city != null && city.isNotEmpty()) {
-            return City(city)
-        } else null
+        return if (city != null && city.isNotEmpty()) City(city) else null
     }
 
     private fun findArgument(args: Array<String>, key: String): List<String>? {
