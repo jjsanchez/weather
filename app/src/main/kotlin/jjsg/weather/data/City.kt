@@ -1,3 +1,3 @@
-package jjsg.weather
+package jjsg.weather.data
 
 data class City(val name: String)

@@ -1,5 +1,7 @@
 package jjsg.weather
 
+import jjsg.weather.data.City
+
 class ArgsParser {
     fun parseCity(args: Array<String>): City? {
         val cityArgument = findArgument(args, "city")

@@ -1,6 +1,7 @@
 package jjsg.weather
 
 import io.kotest.matchers.shouldBe
+import jjsg.weather.data.City
 import org.junit.jupiter.api.Nested
 import org.junit.jupiter.api.Test
 
